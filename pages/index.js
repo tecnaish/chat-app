@@ -27,7 +27,7 @@ export default function Auth() {
       )
 
       .then((r) => {
-        router.push("/chats");
+        router.push("/Chats");
       });
   }
   return (
