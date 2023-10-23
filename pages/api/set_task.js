@@ -3,7 +3,7 @@ import Username from "../../app/models/TaskModel"
 
 export default async function handler(req,res){
   
-    if(req.method =="POST"){
+    if(req.method !=="POST"){
     req.status(405).send({mes:"only POST request are allowed"})
     return
     }
