@@ -1,5 +1,5 @@
-import { connectMongoDb } from "../../app/libs/mongoconnect"
-import Username from "../../app/models/taskModel"
+import { connectMongoDb } from "../../app/libs/MongoConnect"
+import Username from "../../app/models/TaskModel"
 
 export default async function handler(req,res){
   
